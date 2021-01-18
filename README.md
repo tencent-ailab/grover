@@ -1,7 +1,7 @@
 
 Self-Supervised Graph Transformer on Large-Scale Molecular Data
 ===
-This is a Pytorch implementation of the paper: Self-Supervised Graph Transformer on Large-Scale Molecular Data
+This is a Pytorch implementation of the paper: Self-Supervised Graph Transformer on Large-Scale Molecular Data. 
 
 ## Requirements
  * Python 3.6.8
@@ -25,7 +25,7 @@ We provide the pretrained models used in paper.
 
 
 ## Usage
-The whole framework supports pretraining, finetuning, prediction, fingerprint generation, and evaluation functions. 
+The whole framework supports **pretraining**, **finetuning**, **prediction**, **fingerprint generation**, and **evaluation** functions. 
 
 ### Pretraining
 Pretrain `GTransformer` model given the unlabelled molecular data.  
@@ -176,8 +176,8 @@ python main.py fingerprint --data_path exampledata/finetune/bbbp.csv \
 
 Model      | BBBP | SIDER | ClinTox | BACE | Tox21 | ToxCast 
 ----       | ---|----       |----       |----        |----       |----       
-GROVER<sub>base</sub> |  0.936(0.008) | 0.656(0.006) | 0.925(0.013)$ | 0.878(0.016) | 0.819(0.020) | 0.723(0.010)
-GROVER<sub>large</sub> | 0.940(0.019) | 0.658(0.023) | 0.944(0.021)$ | 0.894(0.028) | 0.831(0.025) | 0.737(0.010)
+GROVER<sub>base</sub> |  0.936(0.008) | 0.656(0.006) | 0.925(0.013) | 0.878(0.016) | 0.819(0.020) | 0.723(0.010)
+GROVER<sub>large</sub> | 0.940(0.019) | 0.658(0.023) | 0.944(0.021) | 0.894(0.028) | 0.831(0.025) | 0.737(0.010)
 
 - The regression datasets.
 
