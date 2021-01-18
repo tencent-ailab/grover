@@ -97,6 +97,7 @@ python main.py pretrain \
 
 #### Running Pretraining on Multiple GPU
 We have implemented distributed pretraining on multiple GPU using `horovod`. To start the distributed pretraining, please refer to [this link](https://github.com/horovod/horovod/blob/master/docs/running.rst). 
+To enable the multi-GPU training of the pretraining model, `--enable_multi_gpu` flag should be proposed in the above command line.
 
 
 ### Training & Finetuning
