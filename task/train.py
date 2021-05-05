@@ -121,7 +121,7 @@ def run_training(args: Namespace, time_start, logger: Logger = None) -> List[flo
     if args.gpu is not None:
         torch.cuda.set_device(idx)
 
-    features_scaler, scaler, shared_dict, test_data, train_data, val_data = load_data(args, debug, logger)
+    features_scaler, scaler, shared_dict, test_data, train_data_init, val_data = load_data(args, debug, logger)
 
     metric_func = get_metric_func(metric=args.metric)
 
@@ -171,7 +171,7 @@ def run_training(args: Namespace, time_start, logger: Logger = None) -> List[flo
         # Bulid data_loader
         shuffle = True
         mol_collator = MolCollator(shared_dict={}, args=args)
-        train_data = DataLoader(train_data,
+        train_data = DataLoader(train_data_init,
                                 batch_size=args.batch_size,
                                 shuffle=shuffle,
                                 num_workers=10,
