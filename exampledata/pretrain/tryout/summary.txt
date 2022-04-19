@@ -1,0 +1,3 @@
+n_files:60
+n_samples:5970
+sample_per_file:100
