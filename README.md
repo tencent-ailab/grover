@@ -20,8 +20,8 @@ conda create --name chem --file requirements.txt
 
 ## Pretained Model Download
 We provide the pretrained models used in paper. 
-   - [GROVER<sub>base</sub>](https://ai.tencent.com/ailab/ml/ml-data/grover-models/pretrain/grover_base.tar.gz)
-   - [GROVER<sub>large</sub>](https://ai.tencent.com/ailab/ml/ml-data/grover-models/pretrain/grover_large.tar.gz) 
+   - [GROVER<sub>base</sub>](https://1drv.ms/u/s!Ak4XFI0qaGjOhdlwa2_h-8WAymU1AQ)
+   - [GROVER<sub>large</sub>](https://1drv.ms/u/s!Ak4XFI0qaGjOhdlxC3mGn0LC1NFd6g) 
 
 
 ## Usage
