@@ -33,6 +33,8 @@ class GROVEREmbedding(nn.Module):
             args.backbone = "gtrans"
         if args.backbone == "gtrans" or args.backbone == "dualtrans":
             # dualtrans is the old name.
+            if not hasattr(args, "dropout"):
+                args.dropout = 0
             self.encoders = GTransEncoder(args,
                                           hidden_size=args.hidden_size,
                                           edge_fdim=edge_dim,
