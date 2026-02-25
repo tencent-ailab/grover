@@ -20,8 +20,14 @@ conda create --name chem --file requirements.txt
 
 ## Pretained Model Download
 We provide the pretrained models used in paper. 
+
+   OneDrive: 
    - [GROVER<sub>base</sub>](https://1drv.ms/u/s!Ak4XFI0qaGjOhdlwa2_h-8WAymU1AQ)
-   - [GROVER<sub>large</sub>](https://1drv.ms/u/s!Ak4XFI0qaGjOhdlxC3mGn0LC1NFd6g) 
+   - [GROVER<sub>large</sub>](https://1drv.ms/u/s!Ak4XFI0qaGjOhdlxC3mGn0LC1NFd6g)
+
+   Google Drive: 
+   - [GROVER<sub>base</sub>](https://drive.google.com/file/d/1hiGwOzoRfbJQPWj0V_mtOffsqIIAMgjl/view?usp=drive_link)
+   - [GROVER<sub>large</sub>](https://drive.google.com/file/d/1bMg_ntUKEoOmHM0KoUi1XYJvzPBnHeWw/view?usp=drive_link)
 
 
 ## Usage
